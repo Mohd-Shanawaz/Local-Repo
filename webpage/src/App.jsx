@@ -4,7 +4,6 @@ import Navbar from "./Navbar/navbar";
 // import ImageState from "./state/imagestate";
 function App(){
     return <div>
-        
         <SwitchModes/>
     </div>
 }
