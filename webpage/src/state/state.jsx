@@ -6,7 +6,7 @@ var btnstyle = {
   color: "green",
 };
 
-function Updatehead() {
+export default function Updatehead() {
   const [state,setstate] = useState("Hello");
   function Updateui() {
     setstate("Welcome to React Wrold");
@@ -18,4 +18,4 @@ function Updatehead() {
     </div>
   );
 }
-export default Updatehead;
+

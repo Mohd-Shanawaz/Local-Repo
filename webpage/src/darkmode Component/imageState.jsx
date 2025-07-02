@@ -1,7 +1,7 @@
 import "./imageState.css";
 import { useState } from "react";
 
-function SwitchModes() {
+export default function SwitchModes() {
   const [darkMode, setDarkMode] = useState(false);
   const [toggled, setToggled] = useState(false);
 
@@ -16,7 +16,7 @@ function SwitchModes() {
 
   return <div>
     <div id="heading">
-      <h1 id="msdhoni">MAHENDRA SINGH     DHONI</h1>
+      <h1 id="msdhoni">MAHENDRA SINGH DHONI</h1>
     </div>
     <div className={darkMode ? 'dark-mode' : 'light-mode'} id="container">
         <div className="image">
@@ -47,4 +47,3 @@ function SwitchModes() {
     </div>
   </div>;
 }
-export default SwitchModes;
